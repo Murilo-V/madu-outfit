@@ -4,6 +4,14 @@
     border: 0;
 }
 
+html {
+    overflow-x: hidden;
+}
+
+@mixin KufamFont {
+    font-family: 'Kufam', cursive;
+}
+
 @import 'colors';
 @import 'sidenav';
 @import 'header';

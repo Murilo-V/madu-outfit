@@ -8,8 +8,9 @@
     }
 }
 
-html {
-    overflow-x: hidden;
+.container-fluid {
+    transition: 400ms;
+    transition-property: margin;
 }
 
 .sidenav {
@@ -22,7 +23,11 @@ html {
     background-color: $dark-blue; 
     overflow-x: hidden;
     padding-top: 60px;
-
+    transition: 400ms;
+    transition-property: width;
+    @include KufamFont;
+    font-weight: 500;
+    box-shadow: 0px 0px 30px rgb(17, 17, 17);
 
     a {
         padding: 8px 8px 8px 32px;

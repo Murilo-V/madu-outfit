@@ -4,6 +4,10 @@
   border: 0;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
@@ -13,8 +17,11 @@
   }
 }
 
-html {
-  overflow-x: hidden;
+.container-fluid {
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  -webkit-transition-property: margin;
+  transition-property: margin;
 }
 
 .sidenav {
@@ -27,6 +34,14 @@ html {
   background-color: #003668;
   overflow-x: hidden;
   padding-top: 60px;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  -webkit-transition-property: width;
+  transition-property: width;
+  font-family: 'Kufam', cursive;
+  font-weight: 500;
+  -webkit-box-shadow: 0px 0px 30px #111111;
+          box-shadow: 0px 0px 30px #111111;
 }
 
 .sidenav a {
