@@ -8,10 +8,16 @@ html {
     overflow-x: hidden;
 }
 
+.container-fluid {
+    transition: 400ms;
+    transition-property: margin;
+}
+
 @mixin KufamFont {
     font-family: 'Kufam', cursive;
 }
 
 @import 'colors';
+@import 'responsive';
 @import 'sidenav';
 @import 'header';
