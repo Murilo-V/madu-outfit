@@ -6,9 +6,13 @@
 
 html {
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .container-fluid {
+  z-index: 7;
   -webkit-transition: 400ms;
   transition: 400ms;
   -webkit-transition-property: margin;
@@ -16,6 +20,9 @@ html {
 }
 
 @media screen and (max-width: 600px) {
+  header {
+    padding: 2% !important;
+  }
   header figure {
     width: 20% !important;
   }
@@ -31,14 +38,14 @@ html {
 }
 
 .sidenav {
-  height: 100vh;
+  height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: #003668;
-  overflow-x: hidden;
+  overflow: hidden;
   padding-top: 60px;
   -webkit-transition: 400ms;
   transition: 400ms;

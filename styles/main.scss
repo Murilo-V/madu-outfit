@@ -6,9 +6,13 @@
 
 html {
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .container-fluid {
+    z-index: 7;
     transition: 400ms;
     transition-property: margin;
 }
