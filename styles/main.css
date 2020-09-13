@@ -20,6 +20,16 @@ html {
   background-color: #003668;
 }
 
+h1 {
+  font-weight: 600 !important;
+  font-size: 32pt !important;
+  padding: 0.5%;
+  text-align: center;
+  font-family: 'Kufam', cursive;
+  color: #003668;
+  background-color: #D8FFFD;
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 2% !important;

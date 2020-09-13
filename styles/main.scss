@@ -1,4 +1,5 @@
 @import 'colors';
+@import 'mixins';
 
 * {
     margin: 0;
@@ -20,6 +21,15 @@ html {
     background-color: $dark-blue;
 }
 
+h1 {
+    font-weight: 600 !important;
+    font-size: 32pt !important;
+    padding: 0.5%;
+    text-align: center;
+    @include KufamFont();
+    color: $dark-blue;
+    background-color: $light-blue;
+}
 
 @import 'responsive';
 @import 'sidenav';
