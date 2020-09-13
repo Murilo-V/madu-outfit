@@ -1,0 +1,40 @@
+@import 'colors';
+
+.group-cards {
+    padding: 2%;
+    .card {
+        width: 400px;
+        text-align: center;
+        box-shadow: 0px 4px 10px rgb(29, 28, 28);
+        img {
+            transition: 400ms;
+            transition-property: transform;
+            box-shadow: 0px 4px 10px rgb(29, 28, 28);
+            &:hover {
+                transform: scale(1.03);
+            }
+        }
+    
+        .card-body {
+            @include KufamFont;
+            font-weight: 500;
+            color: $light-blue;
+            background-color: $ocean-blue;
+    
+            .btn {
+                background-color: $dark-blue;
+                color: $light-blue;
+                padding: 3%;
+                width: 50%;
+                transition: 400ms;
+                box-shadow: 0px 4px 10px rgb(22, 21, 21);
+    
+                &:hover {
+                    transform: scale(1.04);
+                    background-color: $light-blue;
+                    color: $dark-blue;
+                }
+            }
+        }
+    }
+}

@@ -1,3 +1,5 @@
+@import 'colors';
+
 * {
     margin: 0;
     padding: 0;
@@ -11,17 +13,16 @@ html {
     border: 0;
 }
 
-.container-fluid {
+.container-fluid { 
     z-index: 7;
-    transition: 400ms;
+    transition: 400ms; 
     transition-property: margin;
+    background-color: $dark-blue;
 }
 
-@mixin KufamFont {
-    font-family: 'Kufam', cursive;
-}
 
-@import 'colors';
 @import 'responsive';
 @import 'sidenav';
 @import 'header';
+@import 'cards';
+
