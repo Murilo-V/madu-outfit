@@ -53,6 +53,8 @@ h1 {
             align-items: center !important;
     margin: auto !important;
     margin-bottom: 4% !important;
+    margin-top: 4% !important;
+    width: 90% !important;
   }
 }
 

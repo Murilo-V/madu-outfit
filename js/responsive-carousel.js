@@ -4,7 +4,7 @@ const Y = window.matchMedia("(max-height: 1200px)");
   changeImage(X, Y);
   X.addListener(changeImage);
 
-function changeImage(X, Y) {
+function changeImage() {
     const imgSlide1 = document.getElementById('slide1');
     const imgSlide2 = document.getElementById('slide2');
     if (X.matches) {
