@@ -1,8 +1,18 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
     header {
         padding: 2% !important;
         figure {
             width: 20% !important;
         }
     }
+
+    .card {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: auto !important;
+        margin-bottom: 4% !important;
+    }
 }
+

@@ -30,12 +30,29 @@ h1 {
   background-color: #D8FFFD;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   header {
     padding: 2% !important;
   }
   header figure {
     width: 20% !important;
+  }
+  .card {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    margin: auto !important;
+    margin-bottom: 4% !important;
   }
 }
 
@@ -126,10 +143,12 @@ header .menu-icon {
 }
 
 .group-cards .card {
-  width: 400px;
+  width: 100%;
   text-align: center;
   -webkit-box-shadow: 0px 4px 10px #1d1c1c;
           box-shadow: 0px 4px 10px #1d1c1c;
+  border: 0;
+  margin: 1%;
 }
 
 .group-cards .card img {
@@ -153,6 +172,7 @@ header .menu-icon {
   font-weight: 500;
   color: #D8FFFD;
   background-color: #1263AF;
+  width: 100%;
 }
 
 .group-cards .card .card-body .btn {

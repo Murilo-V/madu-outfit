@@ -3,9 +3,12 @@
 .group-cards {
     padding: 2%;
     .card {
-        width: 400px;
+        width: 100%;
         text-align: center;
         box-shadow: 0px 4px 10px rgb(29, 28, 28);
+        border: 0;
+        margin: 1%;
+     
         img {
             transition: 400ms;
             transition-property: transform;
@@ -20,6 +23,7 @@
             font-weight: 500;
             color: $light-blue;
             background-color: $ocean-blue;
+            width: 100%;
     
             .btn {
                 background-color: $dark-blue;
