@@ -14,9 +14,9 @@ html {
     border: 0;
 }
 
-.container-fluid { 
+.container-fluid {
     z-index: 7;
-    transition: 400ms; 
+    transition: 400ms;
     transition-property: margin;
     background-color: $dark-blue;
 }
@@ -35,4 +35,3 @@ h1 {
 @import 'sidenav';
 @import 'header';
 @import 'cards';
-
