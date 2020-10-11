@@ -1,0 +1,27 @@
+footer {
+    text-align: center;
+    background-color: $dark-blue;
+    padding: 0.5%;
+    color: $light-blue;
+    @include KufamFont();
+    flex-direction: column;
+    
+    .social-media {
+        font-size: 11pt;
+        flex-direction: column;
+        border-bottom: 2px solid $light-blue;
+        border-radius: 7px;
+        width: 25%;
+        padding: 15px;
+        margin-bottom: 18px;
+
+        i {
+            margin: 0px 5px 0px 5px;
+            cursor: pointer;
+        }
+    }
+
+    .rights {
+        font-size: 9pt;
+    }
+}
