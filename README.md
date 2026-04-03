@@ -1,3 +1,3 @@
 # Madu Outfit
 
-Read me wasn't finished
+Read me isn't finished
